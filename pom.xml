@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>user-service</module>
+        <module>consumer</module>
     </modules>
 
     <!--父工程打包方式设置为pom-->
