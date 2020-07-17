@@ -1,0 +1,16 @@
+server:
+  port: 10086
+
+#服务名称
+spring:
+  application:
+    name: eureka-server
+
+#因为eureka是集群的, 告诉eureka注册的服务地址, (自己注册自己)
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
