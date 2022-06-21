@@ -25,7 +25,7 @@
     <properties>
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
         <mapper.starter.version>2.1.5</mapper.starter.version>
-        <mysql.version>5.1.21</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
     </properties>
 
     <!--子项目引入即可,不用担心版本问题-->
